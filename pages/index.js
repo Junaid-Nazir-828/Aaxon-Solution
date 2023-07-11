@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <Layout>
         <Hero />
-        <Work></Work>        
-        <Techs></Techs>
-        <Testing></Testing>
+        <Work />               
+        <Techs />
+        <Testing />
     </Layout>   
   )
 }

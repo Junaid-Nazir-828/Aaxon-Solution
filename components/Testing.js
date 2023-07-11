@@ -1,8 +1,10 @@
 export default function Testing(){
-    return(
+    return (
         <section>
-            <div className="h-32 bg-red-400">
-
+            <div className="h-28 bg-green-400">
+                <h1>Hello There</h1>
+                <h1>Hello There</h1>
+                <h1>Hello There</h1>
             </div>
         </section>
     )    
