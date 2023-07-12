@@ -2,13 +2,13 @@
 export default function Contact() {
   return (
     <section>      
-      <div className="h-[1080px] shadow-lg text-center relative overflow-hidden">
+      <div className="h-[1080px] shadow-lg text-center relative overflow-hidden mt-[500px]">
         {/* Div for strips*/}
         {/* */}
-        <div className="absolute left-[1040px] -rotate-[16deg] -mt-[104px]">
+        <div className="absolute left-[1050px] -rotate-[16deg] -mt-[104px]">
           <div className="flex">
             <div className="bg-[#FAE1B7] w-60 h-[1250px]"></div>
-            <div className="bg-[#FAE1B7] w-60 h-[1000x] ml-20"></div>
+            <div className="bg-[#FAE1B7] w-60 h-[1000x] ml-16"></div>
           </div>
         </div>
 
