@@ -1,6 +1,6 @@
 export default function Techs(){
     return (
-        <section className="relative">
+        <section className="relative mt-[950px]">
             <div className="bg-slate-300 text-center box-border h-[500px] pt-20">
                 <p className="text-4xl">Technologies we work on</p>                
             </div>
