@@ -5,7 +5,7 @@ export default function Footer() {
           <div className="h-48 w-60 absolute top-20 left-24 ">
             <div className="b-white">
               <a href="#">
-                <img className="h-8 w-8" src="fb_pic.jpg"></img>
+                <img className="h-8 w-20" src="AA.jpg"></img>
               </a>
             </div>
             <div>

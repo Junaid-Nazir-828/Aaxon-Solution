@@ -1,7 +1,8 @@
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
-import Layout from "@/components/Layout"
+// import Layout from "@/components/Layout"
+import Nav from "@/components/Navbar"
 // import { CirclularComponent } from "@/components/CirclularComponent"
 import Techs from "@/components/Techs"
 import Testimonial from "@/components/Testimonial"
@@ -13,13 +14,14 @@ import Work from "@/components/Work"
 
 export default function Home() {
   return (
-    <Layout>
-        <Hero />
-        <Work />               
-        <Techs />
-        <Testimonial />
-        <Contact/>
-        <Footer />
-    </Layout>   
+    <div>
+    <Nav />
+    <Hero />
+    <Work />               
+    <Techs />
+    <Testimonial />
+    <Contact/>
+    <Footer />
+    </div>  
   )
 }
