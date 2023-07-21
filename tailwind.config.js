@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// let plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'primary': '#e8b558'
+      },
       fontFamily:{
         nunito:["Poppins","Roboto"],
       },

@@ -7,22 +7,22 @@ export default function Contact() {
         {/* */}
         <div className="absolute left-[1050px] -rotate-[16deg] -mt-[104px]">
           <div className="flex">
-            <div className="bg-[#FAE1B7] w-60 h-[1250px]"></div>
-            <div className="bg-[#FAE1B7] w-60 h-[1000x] ml-16"></div>
+            <div className="bg-primary w-60 h-[1250px]"></div>
+            <div className="bg-primary w-60 h-[1000x] ml-16"></div>
           </div>
         </div>
 
         {/* Div for form and heading*/}
         <div className="absolute inset-0 z-2">
           {/* Div for Upper Section */}
-          <div className="pt-20 ">
+          <div className="pt-32 ">
             <div className="">
               <h1 className="text-[40px] text-bold font-bold">
                 LET’S START SOMETHING NEW
               </h1>
             </div>
             <div>
-              <p className="text-[28px]">
+              <p className="text-[28px] mt-8">
                 Embark on your Digital Transformation journey with AAxon today
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function Contact() {
                     </label>
                   </div>
                   <div className="mt-4">
-                    <input className="border-b-[2px] border-[#cad5e2]"></input>
+                    <input className="w-52 border-b-[2px] border-[#cad5e2]"></input>
                   </div>
                 </div>
                 <div className="ml-4">
@@ -50,7 +50,7 @@ export default function Contact() {
                     </label>
                   </div>
                   <div className="mt-4">
-                    <input className="border-b-[2px] border-[#cad5e2]"></input>
+                    <input className="w-52 border-b-[2px] border-[#cad5e2]"></input>
                   </div>
                 </div>
               </div>
@@ -59,13 +59,13 @@ export default function Contact() {
             {/* Second Row */}
             <div className="">
               <div className="">
-                <div className="mr-60 mt-6">
+                <div className="mr-72 mt-6">
                   <label className="text-[#33475b] text-[16px]">
                     Mobile Phone Number
                   </label>
                 </div>
                 <div className="mt-4">
-                  <input className="w-[404px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
                 </div>
               </div>
             </div>
@@ -73,11 +73,11 @@ export default function Contact() {
             {/* Third Row */}
             <div className="">
               <div>
-                <div className="mr-[364px] mt-6">
+                <div className="mr-[411px] mt-6">
                   <label className="text-[#33475b] text-[16px]">Email</label>
                 </div>
                 <div className="mt-4">
-                  <input className="w-[404px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
                 </div>
               </div>
             </div>
@@ -85,13 +85,13 @@ export default function Contact() {
             {/* Fourth Row */}
             <div className="">
               <div>
-                <div className="mr-[290px] mt-6">
+                <div className="mr-[337px] mt-6">
                   <label className="text-[#33475b] text-[16px]">
                     Company name
                   </label>
                 </div>
                 <div className=" mt-4">
-                  <input className="w-[404px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
                 </div>
               </div>
             </div>
@@ -99,13 +99,13 @@ export default function Contact() {
             {/* Fifth Row */}
             <div className="">
               <div>
-                <div className="mr-[220px] mt-6">
+                <div className="mr-[264px] mt-6">
                   <label className="text-[#33475b] text-[16px]">
                     What are you looking for?
                   </label>
                 </div>
                 <div className="mt-4">
-                  <select className="w-[404px] border-b-[2px] border-[#cad5e2] bg-white">
+                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white">
                     <option disabled value="" selected>
                       Select Option
                     </option>
@@ -120,13 +120,13 @@ export default function Contact() {
             {/* Sixth Row */}
             <div className="">
               <div>
-                <div className="mr-[160px] mt-6">
+                <div className="mr-[202px] mt-6">
                   <label className="text-[#33475b] text-[16px]">
                     Industry your company belongs to
                   </label>
                 </div>
                 <div className="mt-4">
-                  <select className="w-[404px] border-b-[2px] border-[#cad5e2] bg-white">
+                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white">
                     <option disabled value="" selected>
                       Select Option
                     </option>
@@ -451,11 +451,11 @@ export default function Contact() {
             {/* Seventh Row */}
             <div className="">
               <div>
-                <div className="mr-[340px] mt-6">
+                <div className="mr-[384px] mt-6">
                   <label className="text-[#33475b] text-[16px]">Message</label>
                 </div>
                 <div className="mt-4">
-                  <textarea className="w-[404px] border-b-[2px] border-[#cad5e2]"></textarea>
+                  <textarea className="w-[450px] border-b-[2px] border-[#cad5e2]"></textarea>
                 </div>
               </div>
             </div>
@@ -463,8 +463,8 @@ export default function Contact() {
             {/* Eigth Row */}
             <div className="">
               <div>
-                <div className="mr-[300px] mt-12">
-                  <button className="bg-[#FAE1B7] border-[1px] rounded-[3px] text-white font-bold px-6 py-1">Submit</button>
+                <div className="mr-[334px] mt-12">
+                  <button className="bg-primary border-[1px] rounded-[3px] text-white font-bold px-8 py-2">Submit</button>
                 </div>
               </div>
             </div>
