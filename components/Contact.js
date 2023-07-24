@@ -1,8 +1,8 @@
 // rgb(250,225,183) color for logo
 export default function Contact() {
   return (
-    <section className="">      
-      <div className="h-[1080px] shadow border-[0.5px] text-center relative overflow-hidden">
+    <section className="mt-24">      
+      <div className="h-[1120px] shadow border-[0.5px] text-center relative overflow-hidden">
         {/* Div for strips*/}
         {/* */}
         <div className="absolute left-[1050px] -rotate-[16deg] -mt-[104px]">
