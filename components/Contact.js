@@ -29,6 +29,7 @@ export default function Contact() {
           </div>
 
           {/* Div for Form Section */}
+          <form action="https://getform.io/f/090ed0f2-c85c-4348-b8e6-80e90fe2c2eb" method="POST">
           <div className="pt-16">
             {/* First Row */}
             <div className="flex">
@@ -40,7 +41,7 @@ export default function Contact() {
                     </label>
                   </div>
                   <div className="mt-4">
-                    <input className="w-52 border-b-[2px] border-[#cad5e2]"></input>
+                    <input className="w-52 border-b-[2px] border-[#cad5e2]" name="First Name"></input>
                   </div>
                 </div>
                 <div className="ml-4">
@@ -50,7 +51,7 @@ export default function Contact() {
                     </label>
                   </div>
                   <div className="mt-4">
-                    <input className="w-52 border-b-[2px] border-[#cad5e2]"></input>
+                    <input className="w-52 border-b-[2px] border-[#cad5e2]" name="Last Name"></input>
                   </div>
                 </div>
               </div>
@@ -65,7 +66,7 @@ export default function Contact() {
                   </label>
                 </div>
                 <div className="mt-4">
-                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]" name="Mobile Number"></input>
                 </div>
               </div>
             </div>
@@ -77,7 +78,7 @@ export default function Contact() {
                   <label className="text-[#33475b] text-[16px]">Email</label>
                 </div>
                 <div className="mt-4">
-                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]" name="Email"></input>
                 </div>
               </div>
             </div>
@@ -91,7 +92,7 @@ export default function Contact() {
                   </label>
                 </div>
                 <div className=" mt-4">
-                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]"></input>
+                  <input className="w-[450px] border-b-[2px] border-[#cad5e2]" name="Company Name"></input>
                 </div>
               </div>
             </div>
@@ -105,7 +106,7 @@ export default function Contact() {
                   </label>
                 </div>
                 <div className="mt-4">
-                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white">
+                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white" name="What are you looking for">
                     <option disabled value="" selected>
                       Select Option
                     </option>
@@ -126,7 +127,7 @@ export default function Contact() {
                   </label>
                 </div>
                 <div className="mt-4">
-                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white">
+                  <select className="w-[450px] border-b-[2px] border-[#cad5e2] bg-white" name="industry your company belongs to">
                     <option disabled value="" selected>
                       Select Option
                     </option>
@@ -455,7 +456,7 @@ export default function Contact() {
                   <label className="text-[#33475b] text-[16px]">Message</label>
                 </div>
                 <div className="mt-4">
-                  <textarea className="w-[450px] border-b-[2px] border-[#cad5e2]"></textarea>
+                  <textarea className="w-[450px] border-b-[2px] border-[#cad5e2]" name="message"></textarea>
                 </div>
               </div>
             </div>
@@ -469,6 +470,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
+          </form>
         </div>
       </div>
     </section>

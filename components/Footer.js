@@ -1,3 +1,10 @@
+// <div className="mt-8">
+//               <input
+//                 className="border-b-2 border-white bg-transparent w-60 .placeholder-gray-200 text-white"
+//                 placeholder="Enter your email id"
+//               ></input>
+//             </div>
+
 export default function Footer() {
     return (
       <section>
@@ -128,15 +135,10 @@ export default function Footer() {
           <div className="h-52 top-20 w-60 absolute left-[1170px]">
             <div>
               <h1 className="underline decoration-white decoration-1 text-white font-bold text-[18px]">
-                Newsletter
+                Contact US
               </h1>
             </div>
-            <div className="mt-8">
-              <input
-                className="border-b-2 border-white bg-transparent w-60 .placeholder-gray-200 text-white"
-                placeholder="Enter your email id"
-              ></input>
-            </div>
+            
             <div className="mt-8">
               <div className="flex justify-between">
                 <a href="#">
